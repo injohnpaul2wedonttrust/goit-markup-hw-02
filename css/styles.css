@@ -34,16 +34,11 @@ a {
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
+.link:hover {
   color: #404bbf;
 }
 
-.btn:hover,
-.btn:focus {
-  color: #ffffff;
-  background-color: #404bbf;
-}
+.hero-button {background-color: #404BBF}
 
 /* Header */
 
@@ -104,20 +99,14 @@ a {
   background-color: #2e2f42;
 }
 
-.ourteam {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  color: #2e2f42;;
-}
-
 .ourteam-title {
+  background-color: #F4F4FD;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
 }
 
@@ -154,9 +143,10 @@ a {
 .ourportfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;}
 
 .about-list {
