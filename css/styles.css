@@ -34,11 +34,6 @@ a {
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
-  color: #404bbf;
-}
-
 /* Header */
 
 .header-list {
@@ -90,11 +85,12 @@ a {
   background-color: #4D5AE5;
 }
 
-.button:focus {
-  background-color: #404BBF;
+.hero-button:hover {
+background-color: #404BBF;
 }
-.button:hover {
-  background-color: #404BBF;
+
+.hero-button:focus {
+background-color: #404BBF;
 }
 
 .hero-main {
