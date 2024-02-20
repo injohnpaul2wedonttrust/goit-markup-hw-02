@@ -90,8 +90,10 @@ a {
   background-color: #4D5AE5;
 }
 
-.button:focus,
-button:hover {
+.button:focus {
+  background-color: #404BBF;
+}
+.button:hover {
   background-color: #404BBF;
 }
 
