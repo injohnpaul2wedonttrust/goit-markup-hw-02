@@ -87,12 +87,12 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  background-color: #404BBF;
+  background-color: #4D5AE5;
 }
 
 .button:focus,
 button:hover {
-  background-color: #404BBF
+  background-color: #404BBF;
 }
 
 .hero-main {
