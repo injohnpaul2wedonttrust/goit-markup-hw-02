@@ -39,9 +39,6 @@ a {
   color: #404bbf;
 }
 
-.hero-button,
-.hero-focus {background-color: #404BBF}
-
 /* Header */
 
 .header-list {
@@ -90,7 +87,12 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  background-color: #4d5ae5;
+  background-color: #404BBF;
+}
+
+.button:focus,
+button:hover {
+  background-color: #404BBF
 }
 
 .hero-main {
