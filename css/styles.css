@@ -35,7 +35,7 @@ a {
 }
 
 .link:hover,
-.link.focus {
+.link:focus {
   color: #404bbf;
 }
 
@@ -99,6 +99,10 @@ a {
 
 .hero {
   background-color: #2e2f42;
+}
+
+.ourteam {
+background-color: #F4F4FD
 }
 
 .ourteam-title {
@@ -210,10 +214,13 @@ a {
 
 /* Footer */
 
+.footer {
+background-color: #2e2f42;
+}
 
 .footer-desc {
-  background-color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
-  color: #e7e9fc;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
 }
