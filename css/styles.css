@@ -34,11 +34,13 @@ a {
   text-decoration: none;
 }
 
-.link:hover {
+.link:hover,
+.link.focus {
   color: #404bbf;
 }
 
-.hero-button {background-color: #404BBF}
+.hero-button,
+.hero-focus {background-color: #404BBF}
 
 /* Header */
 
